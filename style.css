@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap'); /* Goblin One Font */
+:root{
+    --primary : #3B71CA;
+    --success : #198754;
+    --background : #232323; 
+    --info : #54B4D3;
+    --greenlight : #2dc4b6;
+}
+html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+
+    user-select: none;
+    overflow-x: hidden;
+}
+img {
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -o-user-select:none;
+     user-select:none;
+     pointer-events:none
+}
+
+/* Start Banner*/
+#banner{
+    height: 110vh;
+    overflow-x: hidden;
+}
+.banner_group h1{
+    font-family: 'Goblin One', cursive;
+    font-size: 170px;
+}
+
+/* End Banner*/
+
+/* Start My Skill */
+
+#skill{
+    height: 50vh;
+    color: var(--greenlight);
+}
+
+.mySkill_padding{
+    padding: 50px;
+}
+.mySkill_group h1{
+    font-size: 80px;
+    font-family: 'Goblin One', cursive;
+}
+.mySkill_group p{
+    font-size: 20px;
+}
+
+
+/* End My Skill */
+
+
+/* Start Stick Img */
+
+.stick_img{
+    width: 100%;
+    height: 50vh;
+}
+.stick_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* End Stick Img */
+
+/* Start Project */
+
+#project h1{
+    font-size: 50px;
+    font-family: 'Goblin One', cursive;
+}
+
+.project_group{
+    width: 87%;
+    height: auto;
+    margin: auto;
+}
+
+.project_img{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.project_first,.project_fourth{
+    height: 35%;
+}
+.project_second,.project_third{
+    height: 65%;
+}
+/* End Project */
+
+
+/* Start Project Title  */
+.p_t{
+    font-size: 20px;
+}
+.p_t_img{
+    width: 80px;
+    height: 80px;
+}
+
+.p_t_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.project_title_group{
+    position: relative;
+}
+.project_title_group::before{
+    content: '';
+
+    width: 250px;
+    height: 250px;
+
+    background: url(./img/project_title_background.png);
+
+    position: absolute;
+
+    z-index: -1;
+    
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* End Project Title */
+
+
+/* Start Stick 2 Img */
+
+.stick2_img{
+    width: 100%;
+    height: 50vh;
+}
+.stick2_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* End Stick2 Img */
+
+/* Start Contact */
+#contact{
+    color: #000;
+}
+.contact_detail h1{
+    max-width: 700px;
+    font-family: 'Goblin One', cursive;
+}
+
+.contact_detail p{
+    letter-spacing: 1.5px;
+    max-width: 400px;
+}
+
+
+/* End Contact */
+
+
+/* Start Footer */
+
+.footer_logo a:hover .twitter i{
+    color: var(--info);
+}
+
+.footer_logo a:hover .instagram i{
+    color: #e95950;
+}
+
+.footer_logo a:hover .facebook i{
+    color: blue;
+}
+.footer_logo a:hover .linkedin i{
+    color: #0A66C2;
+}
+
+/* End Footer */
