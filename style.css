@@ -29,7 +29,7 @@ img {
     height: 110vh;
     overflow-x: hidden;
 }
-.banner_group h1{
+.banner_group p{
     font-family: 'Goblin One', cursive;
     font-size: 170px;
 }
@@ -123,6 +123,12 @@ img {
 .project_title_group{
     position: relative;
 }
+.project_title_item{
+    width: 85%;
+    margin: 0 auto;
+}
+
+
 .project_title_group::before{
     content: '';
 
@@ -160,8 +166,8 @@ img {
 #contact{
     color: #000;
 }
-.contact_detail h1{
-    max-width: 700px;
+.contact_detail span{
+    width: 700px;
     font-family: 'Goblin One', cursive;
 }
 
